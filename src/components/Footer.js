@@ -8,7 +8,7 @@ const Footer = () => {
         <p className="pb-2">+91-9769522788</p>
       </div>
       <h1 className="text-slate-400 bg-slate-900 text-center py-4">
-        &copy; Copyright 2022 HN Research & Solutions.
+        &copy; Copyright 2022 Ignian Software Solutions LLP.
         <br /> All rights reserved.
       </h1>
     </div>

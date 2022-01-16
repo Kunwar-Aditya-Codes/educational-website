@@ -9,7 +9,7 @@ const Header = () => {
           to="/"
           className="text-white font-semibold tracking-wide italic text-xl lg:text-2xl xl:text-3xl"
         >
-          HR Research & Solutions
+          Ignian Software Solutions LLP
         </Link>
 
         {/* Nav items */}
