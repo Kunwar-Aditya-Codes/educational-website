@@ -30,6 +30,7 @@ const DropDown = () => {
         <ul className="text-white font-semibold text-lg mt-12 text-center grid  ">
           <Link
             to="/about"
+            onClick={() => setShow(!show)}
             className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
           >
             About Us
@@ -53,7 +54,7 @@ const DropDown = () => {
               </li>
             )}
             <ul
-              className={`grid absolute w-full right-0.5  top-[11rem]  bg-[#001220]   rounded-md p-4 transition-all duration-300 origin-top ${
+              className={`grid absolute w-full right-0.5  top-[13rem]  bg-[#001220]   rounded-md p-4 transition-all duration-300 origin-top ${
                 options ? "scale-100" : "scale-0"
               } transition ease-in-out duration-300`}
             >
@@ -120,7 +121,7 @@ const DropDown = () => {
               </li>
             )}
             <ul
-              className={`grid absolute top-[15rem] w-full right-0.5 bg-[#001220]   rounded-md p-4 transition-all duration-300 origin-top ${
+              className={`grid absolute top-[17rem] w-full right-0.5 bg-[#001220]   rounded-md p-4 transition-all duration-300 origin-top ${
                 options1 ? "scale-100" : "scale-0"
               } transition ease-in-out duration-300`}
             >
@@ -166,7 +167,7 @@ const DropDown = () => {
               </li>
             )}
             <ul
-              className={`grid absolute top-[19rem] w-full right-0.5 bg-[#001220]   rounded-md p-4 transition-all duration-300 origin-top ${
+              className={`grid absolute top-[21rem] w-full right-0.5 bg-[#001220]   rounded-md p-4 transition-all duration-300 origin-top ${
                 options2 ? "scale-100" : "scale-0"
               } transition ease-in-out duration-300`}
             >
@@ -212,7 +213,7 @@ const DropDown = () => {
               </li>
             )}
             <ul
-              className={`grid absolute top-[23rem] w-full right-0.5 bg-[#001220]   rounded-md p-4 transition-all duration-300 origin-top ${
+              className={`grid absolute top-[25rem] w-full right-0.5 bg-[#001220]   rounded-md p-4 transition-all duration-300 origin-top ${
                 options3 ? "scale-100" : "scale-0"
               } transition ease-in-out duration-300`}
             >
