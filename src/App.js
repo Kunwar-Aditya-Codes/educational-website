@@ -13,7 +13,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-x-hidden">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

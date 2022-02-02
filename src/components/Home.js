@@ -7,13 +7,13 @@ import ScrollToTop from "./ScrollToTop";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-[#001220] text-white">
       <ScrollToTop />
-      <div className="bg-gradient-to-b from-teal-500">
+      <div className="">
         <TopSlider />
       </div>
       <div className="mt-20 text-center">
-        <p className="w-5/6 text-3xl text-slate-800 underline underline-offset-2 mx-auto font-bold tracking-wide">
+        <p className="w-5/6 text-3xl  underline underline-offset-2 mx-auto font-bold tracking-wide">
           "We provide hands on training for all domain by industry experts."
         </p>
       </div>
@@ -80,10 +80,27 @@ const Home = () => {
       </div>
 
       <div className="mt-16">
-        <h1 className="text-center text-2xl border-2 shadow-lg py-3 w-1/2 rounded-md mx-auto font-semibold bg-teal-500">
+        <h1 className="text-center text-black text-2xl shadow-lg py-3 mb-12 w-1/2 rounded-md mx-auto font-semibold bg-teal-500">
           Testimonials
         </h1>
         <Testimonials />
+      </div>
+      <div className="mt-16 pb-24">
+        <h1 className="text-center text-black text-2xl  shadow-lg py-3 mb-12 w-1/2 rounded-md mx-auto font-semibold bg-teal-500">
+          Events
+        </h1>
+        <div className="rounded-md shadow-teal-200 border border-teal-500 my-10 shadow-lg p-4 w-3/4 lg:w-1/3 text-center mx-auto">
+          <p className="text-xl font-semibold underline">Javascript-101</p>
+          <p>-by Mahesh Rajekar</p>
+        </div>
+        <div className="rounded-md shadow-teal-200 border border-teal-500 my-10 shadow-lg p-4 w-3/4 lg:w-1/3 text-center mx-auto">
+          <p className="text-xl font-semibold underline">Python-101</p>
+          <p>-by Mahesh Rajekar</p>
+        </div>
+        <div className="rounded-md shadow-teal-200 border border-teal-500 mt-10 shadow-lg p-4 w-3/4 lg:w-1/3 text-center mx-auto">
+          <p className="text-xl font-semibold underline">React-101</p>
+          <p>-by Mahesh Rajekar</p>
+        </div>
       </div>
     </div>
   );

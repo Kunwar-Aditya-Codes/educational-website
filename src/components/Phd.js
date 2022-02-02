@@ -4,7 +4,7 @@ import ScrollToTop from "./ScrollToTop";
 
 const Phd = () => {
   return (
-    <div className="mt-12">
+    <div className="py-12 text-white bg-[#001220]">
       <ScrollToTop />
       <div className="text-justify w-4/5 mx-auto">
         <h1 className="text-center text-4xl font-semibold text-teal-600 underline py-5">
@@ -17,7 +17,7 @@ const Phd = () => {
         </p>
       </div>
       <div className=" ">
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-xl">
+        <div className="rounded-lg border-2 border-teal-500 shadow-teal-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
           <CourseCard
             title={"Deciding the right University"}
             description={
@@ -25,7 +25,7 @@ const Phd = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-xl">
+        <div className="rounded-lg border-2 border-teal-500 shadow-teal-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
           <CourseCard
             title={"Identify the right guide"}
             description={
@@ -33,7 +33,7 @@ const Phd = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-xl">
+        <div className="rounded-lg border-2 border-teal-500 shadow-teal-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
           <CourseCard
             title={"PHD- Registration"}
             description={
@@ -41,7 +41,7 @@ const Phd = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-xl">
+        <div className="rounded-lg border-2 border-teal-500 shadow-teal-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
           <CourseCard
             title={"Technical Domain Selection"}
             description={
@@ -49,7 +49,7 @@ const Phd = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-xl">
+        <div className="rounded-lg border-2 border-teal-500 shadow-teal-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
           <CourseCard
             title={"Identifying the research problem"}
             description={
@@ -57,7 +57,7 @@ const Phd = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-xl">
+        <div className="rounded-lg border-2 border-teal-500 shadow-teal-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
           <CourseCard
             title={"Write a research Proposal"}
             description={
@@ -65,7 +65,7 @@ const Phd = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-xl">
+        <div className="rounded-lg border-2 border-teal-500 shadow-teal-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
           <CourseCard
             title={"Literature Survey"}
             description={
@@ -73,7 +73,7 @@ const Phd = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-xl">
+        <div className="rounded-lg border-2 border-teal-500 shadow-teal-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
           <CourseCard
             title={"Thesis Writing "}
             description={
