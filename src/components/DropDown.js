@@ -6,7 +6,6 @@ import { AiOutlineCaretDown } from "react-icons/ai";
 
 const DropDown = () => {
   const [show, setShow] = useState(false);
-  const [options, setOptions] = useState(false);
   const [options1, setOptions1] = useState(false);
   const [options2, setOptions2] = useState(false);
   const [options3, setOptions3] = useState(false);
@@ -35,73 +34,13 @@ const DropDown = () => {
           >
             About Us
           </Link>
-          <>
-            {!options ? (
-              <li
-                onClick={() => setOptions(!options)}
-                className="list-none xl:text-lg cursor-pointer grid justify-items-center  text-white focus:bg-emerald-300 p-2 rounded-md lg:text-base focus:shadow-md focus:text-black text-lg  transition ease-in-out duration-200"
-              >
-                Training & Certification
-                <AiOutlineCaretDown />
-              </li>
-            ) : (
-              <li
-                onClick={() => setOptions(!options)}
-                className="list-none xl:text-lg  cursor-pointer grid justify-items-center  text-white  p-2 rounded-md lg:text-base focus:shadow-md  text-lg  transition ease-in-out duration-200"
-              >
-                Training & Certification
-                <AiOutlineCaretDown />
-              </li>
-            )}
-            <ul
-              className={`grid absolute w-full right-0.5  top-[13rem]  bg-[#001220]   rounded-md p-4 transition-all duration-300 origin-top ${
-                options ? "scale-100" : "scale-0"
-              } transition ease-in-out duration-300`}
-            >
-              <Link
-                to="/"
-                onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368]    p-2 my-1 rounded-md"
-              >
-                C
-              </Link>
-              <Link
-                to="/"
-                onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] p-2 my-1 rounded-md"
-              >
-                C++
-              </Link>
-              <Link
-                to="/"
-                onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] p-2 my-1 rounded-md"
-              >
-                Java
-              </Link>
-              <Link
-                to="/"
-                onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] p-2 my-1 rounded-md"
-              >
-                Data Science
-              </Link>
-              <Link
-                to="/"
-                onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368]  p-2 my-1 rounded-md"
-              >
-                Machine Learning
-              </Link>
-              <Link
-                to="/"
-                onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368]  p-2 my-1 rounded-md"
-              >
-                Blockchain
-              </Link>
-            </ul>
-          </>
+          <Link
+            to="/training"
+            onClick={() => setShow(!show)}
+            className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+          >
+            Training & Certification
+          </Link>
           <>
             {!options1 ? (
               <li
@@ -172,21 +111,21 @@ const DropDown = () => {
               } transition ease-in-out duration-300`}
             >
               <Link
-                to="/"
+                to="/phd"
                 onClick={() => setShow(!show)}
                 className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >
                 Phd
               </Link>
               <Link
-                to="/"
+                to="/engineering"
                 onClick={() => setShow(!show)}
                 className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >
                 M.Tech
               </Link>
               <Link
-                to="/"
+                to="/engineering"
                 onClick={() => setShow(!show)}
                 className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >

@@ -7,7 +7,7 @@ import { MdPrecisionManufacturing } from "react-icons/md";
 
 const Civil = () => {
   return (
-    <div className="mt-12">
+    <div className="py-12 bg-[#001220] text-white">
       <ScrollToTop />
       <div className="text-justify w-4/5 mx-auto">
         <h1 className="text-center text-4xl font-semibold text-teal-600 underline py-5">
@@ -20,7 +20,7 @@ const Civil = () => {
         </p>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-xl">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
           <BsAlignTop className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Hydraulics"}
@@ -29,7 +29,7 @@ const Civil = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-xl">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
           <BsMask className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Solid Mechanics"}
@@ -38,7 +38,7 @@ const Civil = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-xl">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
           <BsBuilding className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"RC Structures"}
@@ -47,7 +47,7 @@ const Civil = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-xl">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
           <BsEasel className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"CAD"}
@@ -56,7 +56,7 @@ const Civil = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-xl">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
           <GiWaterTank className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Waste Water Engineering"}
@@ -65,7 +65,7 @@ const Civil = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-xl">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
           <MdPrecisionManufacturing className="w-8 h-8 mx-auto mt-4" />
           <CourseCard
             title={"Manufacturing Process"}

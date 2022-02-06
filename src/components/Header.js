@@ -3,7 +3,7 @@ import DropDown from "./DropDown";
 
 const Header = () => {
   return (
-    <div className="bg-[url('images/navbar.svg')] p-4 sticky top-0 z-50">
+    <div className="bg-[url('images/navbar.svg')]  p-4 sticky top-0 z-50">
       <div className="flex items-center justify-between px-6">
         <Link
           to="/"
@@ -14,47 +14,13 @@ const Header = () => {
 
         {/* Nav items */}
         <div className="font-semibold md:w-1/2 lg:w-2/3 flex justify-between items-center ">
-          <li className="list-none xl:text-lg cursor-pointer hidden lg:inline-block group text-white p-2 rounded-md lg:text-base focus:shadow-md focus:text-black text-lg hover:scale-110 transition ease-in-out duration-200">
+          <Link
+            className="list-none xl:text-lg cursor-pointer hidden lg:inline-block group text-white p-2 rounded-md lg:text-base focus:shadow-lg focus:bg-[#001220]  text-lg hover:scale-110 transition ease-in-out duration-200"
+            to="/training"
+          >
             Training & Certification
-            <ul className="grid absolute bg-gradient-to-r from-[#FA7268] to-[#C62368] rounded-md p-4 transition-all duration-300 origin-top scale-0 group-hover:scale-100 ">
-              <Link
-                to="/"
-                className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
-              >
-                C
-              </Link>
-              <Link
-                to="/"
-                className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
-              >
-                C++
-              </Link>
-              <Link
-                to="/"
-                className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
-              >
-                Java
-              </Link>
-              <Link
-                to="/"
-                className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
-              >
-                Data Science
-              </Link>
-              <Link
-                to="/"
-                className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
-              >
-                Machine Learning
-              </Link>
-              <Link
-                to="/"
-                className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
-              >
-                Blockchain
-              </Link>
-            </ul>
-          </li>
+          </Link>
+
           <li className="list-none xl:text-lg cursor-pointer hidden lg:inline-block group text-white p-2 rounded-md lg:text-base focus:shadow-md focus:text-black text-lg hover:scale-110 transition ease-in-out duration-200">
             Internship
             <ul className="grid absolute bg-gradient-to-r from-[#FA7268] to-[#C62368] rounded-md p-4 transition-all duration-300 origin-top scale-0 group-hover:scale-100 ">
@@ -82,19 +48,19 @@ const Header = () => {
             Project Assistance
             <ul className="grid absolute bg-gradient-to-r from-[#FA7268] to-[#C62368] rounded-md p-4 transition-all duration-300 w-full origin-top scale-0 group-hover:scale-100 ">
               <Link
-                to="/"
+                to="/phd"
                 className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >
                 Phd
               </Link>
               <Link
-                to="/"
+                to="/engineering"
                 className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >
                 M.Tech
               </Link>
               <Link
-                to="/"
+                to="/engineering"
                 className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >
                 B.Tech
@@ -131,7 +97,7 @@ const Header = () => {
             </ul>
           </li>
           <Link
-            className="list-none xl:text-lg cursor-pointer hidden lg:inline-block group text-white p-2 rounded-md lg:text-base focus:shadow-md focus:text-black text-lg hover:scale-110 transition ease-in-out duration-200"
+            className="list-none xl:text-lg cursor-pointer hidden lg:inline-block group text-white p-2 rounded-md lg:text-base focus:shadow-md focus:bg-[#001220]  text-lg hover:scale-110 transition ease-in-out duration-200"
             to="/about"
           >
             About Us

@@ -9,7 +9,7 @@ import Mech from "./components/Mech";
 import Civil from "./components/Civil";
 import Electronics from "./components/Electronics";
 import Phd from "./components/Phd";
-import Contact from "./components/Contact";
+import Training from "./components/Training";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         <Route path="/engineering/civil" element={<Civil />} />
         <Route path="/engineering/electronics" element={<Electronics />} />
         <Route path="/phd" element={<Phd />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/training" element={<Training />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
