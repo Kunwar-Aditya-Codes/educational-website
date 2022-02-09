@@ -11,6 +11,8 @@ import Electronics from "./components/Electronics";
 import Phd from "./components/Phd";
 import Training from "./components/Training";
 import SoftwareTraining from "./components/SoftwareTraining";
+import AppTraining from "./components/AppTraining";
+import WebTraining from "./components/WebTraining";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <Route path="/phd" element={<Phd />} />
         <Route path="/training" element={<Training />} />
         <Route path="/software-training" element={<SoftwareTraining />} />
+        <Route path="/app-training" element={<AppTraining />} />
+        <Route path="/web-training" element={<WebTraining />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
