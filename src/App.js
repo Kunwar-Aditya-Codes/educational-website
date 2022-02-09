@@ -10,10 +10,11 @@ import Civil from "./components/Civil";
 import Electronics from "./components/Electronics";
 import Phd from "./components/Phd";
 import Training from "./components/Training";
+import SoftwareTraining from "./components/SoftwareTraining";
 
 function App() {
   return (
-    <div className="min-h-screen overflow-x-hidden">
+    <div className="min-h-screen">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -24,6 +25,7 @@ function App() {
         <Route path="/engineering/electronics" element={<Electronics />} />
         <Route path="/phd" element={<Phd />} />
         <Route path="/training" element={<Training />} />
+        <Route path="/software-training" element={<SoftwareTraining />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />

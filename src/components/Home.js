@@ -7,7 +7,7 @@ import ScrollToTop from "./ScrollToTop";
 
 const Home = () => {
   return (
-    <div className="bg-[#001220] text-white">
+    <div className="bg-[#001220] text-white ">
       <ScrollToTop />
       <div className="">
         <TopSlider />

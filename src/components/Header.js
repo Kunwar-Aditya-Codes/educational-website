@@ -3,7 +3,7 @@ import DropDown from "./DropDown";
 
 const Header = () => {
   return (
-    <div className="bg-[url('images/navbar.svg')]  p-4 sticky top-0 z-50">
+    <div className="bg-[url('images/navbar.svg')]  p-4 sticky top-0 z-50 ">
       <div className="flex items-center justify-between px-6">
         <Link
           to="/"
@@ -25,7 +25,7 @@ const Header = () => {
             Internship
             <ul className="grid absolute bg-gradient-to-r from-[#FA7268] to-[#C62368] rounded-md p-4 transition-all duration-300 origin-top scale-0 group-hover:scale-100 ">
               <Link
-                to="/"
+                to="/software-training"
                 className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >
                 Software Training
