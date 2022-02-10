@@ -60,7 +60,7 @@ const Header = () => {
             Software Solution
             <ul className="grid absolute bg-gradient-to-r from-[#FA7268] to-[#C62368] rounded-md p-4 transition-all duration-300 w-full origin-top scale-0 group-hover:scale-100 ">
               <Link
-                to="/"
+                to="/app-dev"
                 className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >
                 App Developement
