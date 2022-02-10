@@ -7,7 +7,7 @@ const InternshipCard = ({ title, p1, time, p2 }) => {
         {title}
       </h1>
       <p className="mt-3 text-lg text-slate-300">{p1}</p>
-      <p className="mt-3 text-lg text-slate-300">Taught by - {p2}</p>
+      <p className="mt-3 text-lg text-slate-300">Taught by Industry Expert</p>
       <p className="my-1 text-lg">Time : {time} months</p>
     </div>
   );
