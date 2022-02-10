@@ -84,7 +84,7 @@ const DropDown = () => {
                 App Developement
               </Link>
               <Link
-                to="/"
+                to="/web-dev"
                 onClick={() => setShow(!show)}
                 className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >

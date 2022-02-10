@@ -66,7 +66,7 @@ const Header = () => {
                 App Developement
               </Link>
               <Link
-                to="/"
+                to="/web-dev"
                 className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >
                 Web Developement
