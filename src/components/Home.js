@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="bg-[#001220] text-white ">
       <ScrollToTop />
-      <div className="">
+      <div>
         <TopSlider />
       </div>
       <div className="mt-20 text-center">

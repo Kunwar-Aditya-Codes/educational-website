@@ -6,8 +6,6 @@ import { AiOutlineCaretDown } from "react-icons/ai";
 
 const DropDown = () => {
   const [show, setShow] = useState(false);
-  const [options1, setOptions1] = useState(false);
-  const [options2, setOptions2] = useState(false);
   const [options3, setOptions3] = useState(false);
 
   return (
@@ -41,105 +39,27 @@ const DropDown = () => {
           >
             Training & Certification
           </Link>
-          <>
-            {!options1 ? (
-              <li
-                onClick={() => setOptions1(!options1)}
-                className="list-none xl:text-lg cursor-pointer grid justify-items-center  text-white focus:bg-emerald-300 p-2 rounded-md lg:text-base focus:shadow-md focus:text-black text-lg  transition ease-in-out duration-200"
-              >
-                Internship
-                <AiOutlineCaretDown />
-              </li>
-            ) : (
-              <li
-                onClick={() => setOptions1(!options1)}
-                className="list-none xl:text-lg cursor-pointer grid justify-items-center  text-white focus:bg-emerald-300 p-2 rounded-md lg:text-base focus:shadow-md focus:text-black text-lg  transition ease-in-out duration-200"
-              >
-                Internship
-                <AiOutlineCaretDown />
-              </li>
-            )}
-            <ul
-              className={`grid absolute top-[17rem] w-full right-0.5 bg-[#001220]   rounded-md p-4 transition-all duration-300 origin-top ${
-                options1 ? "scale-100" : "scale-0"
-              } transition ease-in-out duration-300`}
-            >
-              <Link
-                to="/software-training"
-                onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
-              >
-                Software Training
-              </Link>
-              <Link
-                to="/app-training"
-                onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
-              >
-                App Developement
-              </Link>
-              <Link
-                to="/web-training"
-                onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
-              >
-                Web Developement
-              </Link>
-            </ul>
-          </>
-          <>
-            {!options2 ? (
-              <li
-                onClick={() => setOptions2(!options2)}
-                className="list-none xl:text-lg cursor-pointer grid justify-items-center  text-white focus:bg-emerald-300 p-2 rounded-md lg:text-base focus:shadow-md focus:text-black text-lg  transition ease-in-out duration-200"
-              >
-                Project Assistance
-                <AiOutlineCaretDown />
-              </li>
-            ) : (
-              <li
-                onClick={() => setOptions2(!options2)}
-                className="list-none xl:text-lg cursor-pointer grid justify-items-center  text-white focus:bg-emerald-300 p-2 rounded-md lg:text-base focus:shadow-md focus:text-black text-lg  transition ease-in-out duration-200"
-              >
-                Project Assistance
-                <AiOutlineCaretDown />
-              </li>
-            )}
-            <ul
-              className={`grid absolute top-[21rem] w-full right-0.5 bg-[#001220]   rounded-md p-4 transition-all duration-300 origin-top ${
-                options2 ? "scale-100" : "scale-0"
-              } transition ease-in-out duration-300`}
-            >
-              <Link
-                to="/phd"
-                onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
-              >
-                Phd
-              </Link>
-              <Link
-                to="/engineering"
-                onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
-              >
-                M.Tech
-              </Link>
-              <Link
-                to="/engineering"
-                onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
-              >
-                B.Tech
-              </Link>
-            </ul>
-          </>
+          <Link
+            to="/internship"
+            onClick={() => setShow(!show)}
+            className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+          >
+            Internship
+          </Link>
+          <Link
+            to="/competitive-exam"
+            onClick={() => setShow(!show)}
+            className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+          >
+            Competitve Exam
+          </Link>
           <>
             {!options3 ? (
               <li
                 onClick={() => setOptions3(!options3)}
                 className="list-none xl:text-lg cursor-pointer grid justify-items-center  text-white focus:bg-emerald-300 p-2 rounded-md lg:text-base focus:shadow-md focus:text-black text-lg  transition ease-in-out duration-200"
               >
-                Competitive Exam
+                Software Solution
                 <AiOutlineCaretDown />
               </li>
             ) : (
@@ -147,7 +67,7 @@ const DropDown = () => {
                 onClick={() => setOptions3(!options3)}
                 className="list-none xl:text-lg cursor-pointer grid justify-items-center  text-white focus:bg-emerald-300 p-2 rounded-md lg:text-base focus:shadow-md focus:text-black text-lg  transition ease-in-out duration-200"
               >
-                Competitive Exam
+                Software Solution
                 <AiOutlineCaretDown />
               </li>
             )}
@@ -161,28 +81,14 @@ const DropDown = () => {
                 onClick={() => setShow(!show)}
                 className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >
-                GATE
+                App Developement
               </Link>
               <Link
                 to="/"
                 onClick={() => setShow(!show)}
                 className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >
-                NET/SET
-              </Link>
-              <Link
-                to="/"
-                onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
-              >
-                JEE
-              </Link>
-              <Link
-                to="/"
-                onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
-              >
-                UPSC
+                Web Developement
               </Link>
             </ul>
           </>

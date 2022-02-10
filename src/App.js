@@ -10,13 +10,12 @@ import Civil from "./components/Civil";
 import Electronics from "./components/Electronics";
 import Phd from "./components/Phd";
 import Training from "./components/Training";
-import SoftwareTraining from "./components/SoftwareTraining";
-import AppTraining from "./components/AppTraining";
-import WebTraining from "./components/WebTraining";
+import Internship from "./components/Internship";
+import CompetitveExam from "./components/CompetitveExam";
 
 function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-auto">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -27,9 +26,8 @@ function App() {
         <Route path="/engineering/electronics" element={<Electronics />} />
         <Route path="/phd" element={<Phd />} />
         <Route path="/training" element={<Training />} />
-        <Route path="/software-training" element={<SoftwareTraining />} />
-        <Route path="/app-training" element={<AppTraining />} />
-        <Route path="/web-training" element={<WebTraining />} />
+        <Route path="/internship" element={<Internship />} />
+        <Route path="competitive-exam" element={<CompetitveExam />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
