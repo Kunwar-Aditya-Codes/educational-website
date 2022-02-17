@@ -26,38 +26,30 @@ const WebDevelopement = () => {
         Have a look at some of our happy customer's app!
       </h1>
       <div className=" bg-cyan-500 text-white lg:flex items-center justify-around lg:p-11 py-6">
-        <img src="images/computer.png" alt="" className="mx-auto lg:mx-0" />
+        <img src="images/computer1.png" alt="" className="mx-auto lg:mx-0" />
         <p className="my-4  w-4/5 mx-auto lg:mx-0 lg:w-2/4">
-          <h2 className="text-center text-xl my-2 lg:text-6xl lg:my-6">Test</h2>
+          <h2 className="text-center text-xl my-2 lg:text-6xl lg:my-6">
+            TESLA CLONE
+          </h2>
           <p className="text-justify">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            Tech used to make this beautiful clone of TESLA is react - the best
+            framework of Javascript and a very popular one. We have also used
+            styled-components for designing and styling of the website and we
+            have also made use of animation and it is full mobile responsive.
           </p>
         </p>
       </div>
       <div className=" bg-pink-500 text-white lg:flex flex-row-reverse items-center justify-around lg:p-11 py-6 ">
-        <img src="images/computer.png" alt="" className="mx-auto lg:mx-0" />
+        <img src="images/computer2.png" alt="" className="mx-auto lg:mx-0" />
         <p className="my-4  w-4/5 mx-auto lg:mx-0 lg:w-2/4">
-          <h2 className="text-center text-xl my-2 lg:text-6xl lg:my-6">Test</h2>
+          <h2 className="text-center text-xl my-2 lg:text-6xl lg:my-6">
+            HULU CLONE
+          </h2>
           <p className="text-justify">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
-        </p>
-      </div>
-      <div className=" bg-amber-500 text-white lg:flex items-center justify-around lg:p-11 py-6">
-        <img src="images/computer.png" alt="" className="mx-auto lg:mx-0" />
-        <p className="my-4  w-4/5 mx-auto lg:mx-0 lg:w-2/4">
-          <h2 className="text-center text-xl my-2 lg:text-6xl lg:my-6">Test</h2>
-          <p className="text-justify">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            A website that fulfills entertainment needs of a person! We have
+            built that too. The tech stack we have used is Next.js and Tailwind
+            Css. Next.js provides SSR(server side-rendering) which helps your
+            website function fast and smooth.
           </p>
         </p>
       </div>
