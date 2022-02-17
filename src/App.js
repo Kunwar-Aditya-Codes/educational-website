@@ -14,6 +14,7 @@ import Internship from "./components/Internship";
 import CompetitveExam from "./components/CompetitveExam";
 import AppDevelopement from "./components/AppDevelopement";
 import WebDevelopement from "./components/WebDevelopement";
+import About from "./components/About";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="competitive-exam" element={<CompetitveExam />} />
         <Route path="app-dev" element={<AppDevelopement />} />
         <Route path="web-dev" element={<WebDevelopement />} />
+        <Route path="/about" element={<About />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
