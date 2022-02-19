@@ -15,13 +15,13 @@ const Vision = () => {
         universities are connected to the real world.
       </p>
       <p className="md:w-2/3 mx-auto py-2 px-3 lg:w-1/2 text-xl xl:w-1/3">
-        * HN Research & Solutions does its best to offer projects in
+        * Ignian Software Solutions does its best to offer projects in
         advanced/current topics assisting students to stay ahead of their
         counterparts, expose to present technological updates, and thus decide
         if the profession they are in is the right choice.
       </p>
       <p className="md:w-2/3 mx-auto py-2 px-3 lg:w-1/2 text-xl xl:w-1/3">
-        * HN Research & Solutions endeavors to put every student in an
+        * Ignian Software Solutions endeavors to put every student in an
         environment that aids him or her to learn new skills, meet and network
         with people, improve communication and management abilities, and obtain
         a comprehensive practical experience.

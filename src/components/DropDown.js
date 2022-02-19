@@ -7,6 +7,7 @@ import { AiOutlineCaretDown } from "react-icons/ai";
 const DropDown = () => {
   const [show, setShow] = useState(false);
   const [options3, setOptions3] = useState(false);
+  const [options, setOptions] = useState(false);
 
   return (
     <>
@@ -53,6 +54,13 @@ const DropDown = () => {
           >
             Competitve Exam
           </Link>
+          <Link
+            to="/events"
+            onClick={() => setShow(!show)}
+            className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+          >
+            Events
+          </Link>
           <>
             {!options3 ? (
               <li
@@ -72,7 +80,7 @@ const DropDown = () => {
               </li>
             )}
             <ul
-              className={`grid absolute top-[25rem] w-full right-0.5 bg-[#001220]   rounded-md p-4 transition-all duration-300 origin-top ${
+              className={`grid absolute top-[28rem] w-full right-0.5 bg-[#001220]   rounded-md p-4 transition-all duration-300 origin-top ${
                 options3 ? "scale-100" : "scale-0"
               } transition ease-in-out duration-300`}
             >
@@ -89,6 +97,52 @@ const DropDown = () => {
                 className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >
                 Web Developement
+              </Link>
+            </ul>
+          </>
+          <>
+            {!options ? (
+              <li
+                onClick={() => setOptions(!options)}
+                className="list-none xl:text-lg cursor-pointer grid justify-items-center  text-white focus:bg-emerald-300 p-2 rounded-md lg:text-base focus:shadow-md focus:text-black text-lg  transition ease-in-out duration-200"
+              >
+                Project Assistance
+                <AiOutlineCaretDown />
+              </li>
+            ) : (
+              <li
+                onClick={() => setOptions(!options)}
+                className="list-none xl:text-lg cursor-pointer grid justify-items-center  text-white focus:bg-emerald-300 p-2 rounded-md lg:text-base focus:shadow-md focus:text-black text-lg  transition ease-in-out duration-200"
+              >
+                Project Assistance
+                <AiOutlineCaretDown />
+              </li>
+            )}
+            <ul
+              className={`grid absolute top-[33rem] w-full right-0.5 bg-[#001220]   rounded-md p-4 transition-all duration-300 origin-top ${
+                options ? "scale-100" : "scale-0"
+              } transition ease-in-out duration-300`}
+            >
+              <Link
+                to="/phd"
+                onClick={() => setShow(!show)}
+                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+              >
+                Phd
+              </Link>
+              <Link
+                to="/engineering"
+                onClick={() => setShow(!show)}
+                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+              >
+                M.Tech
+              </Link>
+              <Link
+                to="/engineering"
+                onClick={() => setShow(!show)}
+                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+              >
+                B.Tech
               </Link>
             </ul>
           </>
