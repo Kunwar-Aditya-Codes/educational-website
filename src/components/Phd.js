@@ -123,12 +123,12 @@ const Phd = () => {
           PhD Consulting
         </h1>
         <p>
-          PhD., Consulting service is a professional wing of HN Solutions
-          rendering support to aspiring research scholars to comprehend the
-          various intricacies involved in the process of research to achieve
-          professionalism. Our ethical and expert consultancy and pro-active
-          counseling and direction shall comfortably guide you through to
-          complete the research project successfully.
+          PhD., Consulting service is a professional wing of Ignian Software
+          Solutions rendering support to aspiring research scholars to
+          comprehend the various intricacies involved in the process of research
+          to achieve professionalism. Our ethical and expert consultancy and
+          pro-active counseling and direction shall comfortably guide you
+          through to complete the research project successfully.
         </p>
         <p className="mt-5 text-lg font-medium text-teal-500">
           We are specialized in the following areas:
@@ -140,7 +140,7 @@ const Phd = () => {
           # What is the insight you get?
         </p>
         <p className="mt-2 font-medium text-teal-500">
-          # Learning through HN Solutions
+          # Learning through Ignian Software Solutions
         </p>
         <p className="mt-2 font-medium text-teal-500">
           # Our support facilitates

@@ -39,42 +39,42 @@ const Testimonials = () => {
             name={"Anil Gore"}
             title={"M.Tech"}
             description={
-              "HN Research Solutions provides excellent service for Documents and coding. Every small queries provide solutions is really help to us by conducting their various session like explain concept and line by line coding session. The management has always been respectful,responsive, supportive and understanding. Staff are very helpful and having very friendly nature. I have learn a lot from all the session and help from employee. Thanks all HN Research  Solution "
+              "Ignian Software Solutions provides excellent service for Documents and coding. Every small queries provide solutions is really help to us by conducting their various session like explain concept and line by line coding session. The management has always been respectful,responsive, supportive and understanding. Staff are very helpful and having very friendly nature. I have learn a lot from all the session and help from employee. Thanks all Ignian Software Solution "
             }
           />
           <TestimonialCard
             name={"Kishori Jadhav"}
             title={"PhD"}
             description={
-              "HN Research Solutions provides excellent service for Documents and coding. Every small queries provide solutions is really help to us by conducting their various session like explain concept and line by line coding session. The management has always been respectful,responsive, supportive and understanding. Staff are very helpful and having very friendly nature. I have learn a lot from all the session and help from employee. Thanks all HN Research  Solution "
+              "Ignian Software Solutions provides excellent service for Documents and coding. Every small queries provide solutions is really help to us by conducting their various session like explain concept and line by line coding session. The management has always been respectful,responsive, supportive and understanding. Staff are very helpful and having very friendly nature. I have learn a lot from all the session and help from employee. Thanks all Ignian Software Solution "
             }
           />
           <TestimonialCard
             name={"Sanket Phadke"}
             title={"PhD"}
             description={
-              "HN Research Solutions provides excellent service for Documents and coding. Every small queries provide solutions is really help to us by conducting their various session like explain concept and line by line coding session. The management has always been respectful,responsive, supportive and understanding. Staff are very helpful and having very friendly nature. I have learn a lot from all the session and help from employee. Thanks all HN Research  Solution "
+              "Ignian Software Solutions provides excellent service for Documents and coding. Every small queries provide solutions is really help to us by conducting their various session like explain concept and line by line coding session. The management has always been respectful,responsive, supportive and understanding. Staff are very helpful and having very friendly nature. I have learn a lot from all the session and help from employee. Thanks all Ignian Software Solution "
             }
           />
           <TestimonialCard
             name={"Anil Gore"}
             title={"M.Tech"}
             description={
-              "HN Research Solutions provides excellent service for Documents and coding. Every small queries provide solutions is really help to us by conducting their various session like explain concept and line by line coding session. The management has always been respectful,responsive, supportive and understanding. Staff are very helpful and having very friendly nature. I have learn a lot from all the session and help from employee. Thanks all HN Research  Solution "
+              "Ignian Software Solutions provides excellent service for Documents and coding. Every small queries provide solutions is really help to us by conducting their various session like explain concept and line by line coding session. The management has always been respectful,responsive, supportive and understanding. Staff are very helpful and having very friendly nature. I have learn a lot from all the session and help from employee. Thanks all Ignian Software Solution "
             }
           />
           <TestimonialCard
             name={"Kishori Jadhav"}
             title={"PhD"}
             description={
-              "HN Research Solutions provides excellent service for Documents and coding. Every small queries provide solutions is really help to us by conducting their various session like explain concept and line by line coding session. The management has always been respectful,responsive, supportive and understanding. Staff are very helpful and having very friendly nature. I have learn a lot from all the session and help from employee. Thanks all HN Research  Solution "
+              "Ignian Software Solutions provides excellent service for Documents and coding. Every small queries provide solutions is really help to us by conducting their various session like explain concept and line by line coding session. The management has always been respectful,responsive, supportive and understanding. Staff are very helpful and having very friendly nature. I have learn a lot from all the session and help from employee. Thanks all Ignian Software Solution "
             }
           />
           <TestimonialCard
             name={"Sanket Phadke"}
             title={"PhD"}
             description={
-              "HN Research Solutions provides excellent service for Documents and coding. Every small queries provide solutions is really help to us by conducting their various session like explain concept and line by line coding session. The management has always been respectful,responsive, supportive and understanding. Staff are very helpful and having very friendly nature. I have learn a lot from all the session and help from employee. Thanks all HN Research  Solution "
+              "Ignian Software Solutions provides excellent service for Documents and coding. Every small queries provide solutions is really help to us by conducting their various session like explain concept and line by line coding session. The management has always been respectful,responsive, supportive and understanding. Staff are very helpful and having very friendly nature. I have learn a lot from all the session and help from employee. Thanks all Ignian Software Solution "
             }
           />
         </Slider>
