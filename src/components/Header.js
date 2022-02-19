@@ -6,7 +6,7 @@ const Header = () => {
     <div className="bg-[url('images/navbar.svg')] bg-cover bg-fixed  p-4 sticky top-0 z-50 ">
       <div className="flex items-center justify-between lg:grid grid-cols-1 px-6">
         <div className="flex items-center justify-center ">
-          <img src="images/logo.png" alt="" className="w-24 h-24 p-2" />
+          <img src="images/Logo.png" alt="" className="w-24 h-24 p-2" />
           <Link
             to="/"
             className="text-white lg:text-center font-semibold tracking-wide italic text-xl xl:text-3xl"
