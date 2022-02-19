@@ -5,12 +5,15 @@ const Header = () => {
   return (
     <div className="bg-[url('images/navbar.svg')] bg-cover bg-fixed  p-4 sticky top-0 z-50 ">
       <div className="flex items-center justify-between lg:grid grid-cols-1 px-6">
-        <Link
-          to="/"
-          className="text-white lg:text-center font-semibold tracking-wide italic text-xl xl:text-3xl"
-        >
-          Ignian Software Solutions LLP
-        </Link>
+        <div className="flex items-center justify-center ">
+          <img src="images/logo.png" alt="" className="w-24 h-24 p-2" />
+          <Link
+            to="/"
+            className="text-white lg:text-center font-semibold tracking-wide italic text-xl xl:text-3xl"
+          >
+            Ignian Software Solutions LLP
+          </Link>
+        </div>
 
         {/* Nav items */}
         <div className="font-semibold flex justify-between lg:pt-3  items-center ">
