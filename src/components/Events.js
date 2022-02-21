@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebaseConfig";
+import ScrollToTop from "./ScrollToTop";
 
 const Events = () => {
   const [events, setEvents] = useState([]);
@@ -17,6 +18,7 @@ const Events = () => {
 
   return (
     <div className="bg-[#001220] text-white min-h-screen">
+      <ScrollToTop />
       {events.map((event) => {
         return (
           <div className=" p-4">

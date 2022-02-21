@@ -26,7 +26,7 @@ const AppDevelopement = () => {
         Have a look at some of our happy customer's app!
       </h1>
       <div className=" bg-teal-500 text-white lg:flex items-center justify-around lg:p-11 py-6">
-        <img src="images/iphone.png" alt="" className="mx-auto lg:mx-0" />
+        <img src="images/iphone1.png" alt="" className="mx-auto lg:mx-0" />
         <p className="my-4  w-4/5 mx-auto lg:mx-0 lg:w-2/4">
           <h2 className="text-center text-xl my-2 lg:text-6xl lg:my-6">Test</h2>
           <p className="text-justify">
@@ -38,7 +38,7 @@ const AppDevelopement = () => {
         </p>
       </div>
       <div className=" bg-fuchsia-500 text-white lg:flex flex-row-reverse items-center justify-around lg:p-11 py-6 ">
-        <img src="images/iphone.png" alt="" className="mx-auto lg:mx-0" />
+        <img src="images/iphone2.png" alt="" className="mx-auto lg:mx-0" />
         <p className="my-4  w-4/5 mx-auto lg:mx-0 lg:w-2/4">
           <h2 className="text-center text-xl my-2 lg:text-6xl lg:my-6">Test</h2>
           <p className="text-justify">
