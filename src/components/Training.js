@@ -12,10 +12,10 @@ import { GiBrain, GiMaterialsScience } from "react-icons/gi";
 
 const Training = () => {
   return (
-    <div className="bg-[#001220] text-white py-6">
+    <div className="text-white py-6">
       <ScrollToTop />
       <div className="grid md:grid-cols-2 xl:grid-cols-3">
-        <div className=" grid justify-items-center py-5 mb-8 rounded-md mx-auto shadow-slate-50 shadow-md border-white border-2 w-5/6">
+        <div className=" grid justify-items-center py-5 mb-8 border-sky-600 border-2 text-sky-600 rounded-md mx-auto  shadow-md  w-5/6">
           <SiC className="h-10 w-10 text-blue-700" />
           <TrainingCard
             title={"C Programming"}
@@ -26,8 +26,8 @@ const Training = () => {
             ad5={" Fast execution speed"}
           />
         </div>
-        <div className=" grid justify-items-center py-5 mb-8 rounded-md mx-auto shadow-slate-50 shadow-md border-white border-2 w-5/6">
-          <SiCplusplus className="h-12 w-12 text-purple-600" />
+        <div className=" grid justify-items-center py-5 mb-8 rounded-md mx-auto border-sky-600 border-2 text-sky-600  shadow-md  w-5/6">
+          <SiCplusplus className="h-12 w-12 text-purple-700" />
           <TrainingCard
             title={"C++"}
             ad1={"Object-Oriented"}
@@ -37,7 +37,7 @@ const Training = () => {
             ad5={"Huge Community"}
           />
         </div>
-        <div className=" grid justify-items-center py-5 mb-8 rounded-md mx-auto shadow-slate-50 shadow-md border-white border-2 w-5/6">
+        <div className=" grid justify-items-center py-5 mb-8 rounded-md mx-auto border-sky-600 border-2 text-sky-600  shadow-md  w-5/6">
           <SiJava className="h-16 w-16 text-amber-500" />
           <TrainingCard
             title={"Java"}
@@ -48,7 +48,7 @@ const Training = () => {
             ad5={"Secured programming language"}
           />
         </div>
-        <div className=" grid justify-items-center py-5 mb-8 rounded-md mx-auto shadow-slate-50 shadow-md border-white border-2 w-5/6">
+        <div className=" grid justify-items-center py-5 mb-8 rounded-md mx-auto border-sky-600 border-2 text-sky-600  shadow-md  w-5/6">
           <SiPython className="h-12 w-12 text-fuchsia-500" />
           <TrainingCard
             title={"Python"}
@@ -59,7 +59,7 @@ const Training = () => {
             ad5={"Interpreted Language"}
           />
         </div>
-        <div className=" grid justify-items-center py-5 mb-8 rounded-md mx-auto shadow-slate-50 shadow-md border-white border-2 w-5/6">
+        <div className=" grid justify-items-center py-5 mb-8 rounded-md mx-auto border-sky-600 border-2 text-sky-600  shadow-md  w-5/6">
           <SiHiveBlockchain className="h-12 w-12 text-sky-400" />
           <TrainingCard
             title={"Blockchain"}
@@ -70,7 +70,7 @@ const Training = () => {
             ad5={"Visibility and traceability"}
           />
         </div>
-        <div className=" grid justify-items-center py-5 mb-8 rounded-md mx-auto shadow-slate-50 shadow-md border-white border-2 w-5/6">
+        <div className=" grid justify-items-center py-5 mb-8 rounded-md mx-auto border-sky-600 border-2 text-sky-600  shadow-md  w-5/6">
           <GiBrain className="h-12 w-12 text-emerald-500" />
           <TrainingCard
             title={"Machine Learning"}
@@ -81,7 +81,7 @@ const Training = () => {
             ad5={"Wide Applications"}
           />
         </div>
-        <div className=" grid justify-items-center py-5 mb-8 rounded-md mx-auto shadow-slate-50 shadow-md border-white border-2 w-5/6">
+        <div className=" grid justify-items-center py-5 mb-8 rounded-md mx-auto border-sky-600 border-2 text-sky-600  shadow-md  w-5/6">
           <GiMaterialsScience className="h-12 w-12 text-lime-500" />
           <TrainingCard
             title={"Data Science"}

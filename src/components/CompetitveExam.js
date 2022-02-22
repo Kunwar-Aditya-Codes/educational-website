@@ -3,14 +3,14 @@ import ScrollToTop from "./ScrollToTop";
 
 const CompetitveExam = () => {
   return (
-    <div className="bg-[#001220] text-white py-4">
+    <div className=" py-4">
       <ScrollToTop />
       <div>
-        <div className="my-8 text-lg border-2 rounded-md p-2 text-justify  w-5/6 mx-auto">
-          <h2 className="font-medium text-2xl p-2 rounded-xl my-2 bg-gradient-to-r from-[#FA7268] to-[#C62368]">
+        <div className="my-8 text-lg border-2 rounded-md p-2 text-justify bg-sky-600 text-white  w-5/6 mx-auto">
+          <h2 className="font-medium text-2xl p-2 rounded-xl my-2 bg-white text-sky-600">
             GATE
           </h2>
-          <p>
+          <p className="p-2">
             The Graduate Aptitude Test in Engineering (GATE) is an examination
             that primarily tests the comprehensive understanding of various
             undergraduate subjects in engineering and science for admission into
@@ -22,11 +22,11 @@ const CompetitveExam = () => {
             secure.
           </p>
         </div>
-        <div className="my-8 text-lg border-2 rounded-md p-2 text-justify  w-5/6 mx-auto">
-          <h2 className="font-medium text-2xl p-2 rounded-xl my-2 bg-gradient-to-r from-[#FA7268] to-[#C62368]">
+        <div className="my-8 text-lg border-2 rounded-md p-2 text-justify bg-sky-600 text-white  w-5/6 mx-auto">
+          <h2 className="font-medium text-2xl p-2 rounded-xl my-2 bg-white text-sky-600">
             JEE
           </h2>
-          <p>
+          <p className="p-2">
             The Joint Entrance Examination (JEE) is an engineering entrance
             assessment conducted for admission to various engineering colleges
             in India. It is constituted by two different examinations: the JEE
@@ -50,11 +50,11 @@ const CompetitveExam = () => {
             and exclusive counselling sessions.
           </p>
         </div>
-        <div className="my-8 text-lg border-2 rounded-md p-2 text-justify  w-5/6 mx-auto">
-          <h2 className="font-medium text-2xl p-2 rounded-xl my-2 bg-gradient-to-r from-[#FA7268] to-[#C62368]">
+        <div className="my-8 text-lg border-2 rounded-md p-2 text-justify bg-sky-600 text-white  w-5/6 mx-auto">
+          <h2 className="font-medium text-2xl p-2 rounded-xl my-2 bg-white text-sky-600">
             UPSC
           </h2>
-          <p>
+          <p className="p-2">
             The Union Public Service Commission, commonly abbreviated as UPSC,
             is India's premier central recruiting agency for Group 'A' officers
             of Government of India under union government civil services, union
@@ -68,11 +68,11 @@ const CompetitveExam = () => {
             in India.
           </p>
         </div>
-        <div className="my-8 text-lg border-2 rounded-md p-2 text-justify  w-5/6 mx-auto">
-          <h2 className="font-medium text-2xl p-2 rounded-xl my-2 bg-gradient-to-r from-[#FA7268] to-[#C62368]">
+        <div className="my-8 text-lg border-2 rounded-md p-2 text-justify bg-sky-600 text-white  w-5/6 mx-auto">
+          <h2 className="font-medium text-2xl p-2 rounded-xl my-2 bg-white text-sky-600">
             NET
           </h2>
-          <p>
+          <p className="p-2">
             The National Eligibility Test (NET), also known as UGC NET or
             NTA-UGC-NET, is the examination for determining the eligibility for
             the post of assistant professor and/or Junior Research Fellowship

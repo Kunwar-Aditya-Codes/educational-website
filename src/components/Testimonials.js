@@ -33,7 +33,7 @@ const Testimonials = () => {
   };
   return (
     <div>
-      <div className="w-full mx-auto pt-5 text-black ">
+      <div className="w-full mx-auto pt-5 text-white ">
         <Slider {...settings}>
           <TestimonialCard
             name={"Anil Gore"}

@@ -4,9 +4,9 @@ import ScrollToTop from "./ScrollToTop";
 
 const Internship = () => {
   return (
-    <div className="bg-[#001220] text-white  py-12">
+    <div className="bg-sky-600  py-12">
       <ScrollToTop />
-      <h1 className="text-center my-8 text-4xl tracking-wide font-serif">
+      <h1 className="text-center text-white my-8 text-4xl tracking-wide font-serif">
         Interships You Might be Interested In!
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2">
