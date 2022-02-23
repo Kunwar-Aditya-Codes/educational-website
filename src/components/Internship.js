@@ -4,7 +4,7 @@ import ScrollToTop from "./ScrollToTop";
 
 const Internship = () => {
   return (
-    <div className="bg-sky-600  py-12">
+    <div className="bg-[#001220]  py-12">
       <ScrollToTop />
       <h1 className="text-center text-white my-8 text-4xl tracking-wide font-serif">
         Interships You Might be Interested In!

@@ -7,9 +7,9 @@ import ScrollToTop from "./ScrollToTop";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-[#001220] text-white">
       <ScrollToTop />
-      <div className="bg-sky-600">
+      <div className="">
         <TopSlider />
       </div>
       <div className="mt-20 text-center">
@@ -80,24 +80,24 @@ const Home = () => {
       </div>
 
       <div className="mt-16">
-        <h1 className="text-center text-white text-2xl shadow-lg py-3 mb-12 w-1/2 rounded-md mx-auto font-semibold bg-sky-600 ">
+        <h1 className="text-center text-white text-2xl shadow-lg py-3 mb-12 w-1/2 rounded-md mx-auto font-semibold bg-teal-500 ">
           Testimonials
         </h1>
         <Testimonials />
       </div>
-      <div className="mt-16 pb-24 bg-sky-600 pt-12">
-        <h1 className="text-center  text-2xl  shadow-lg py-3 mb-12 w-1/2 rounded-md mx-auto font-semibold bg-white ">
+      <div className="mt-16 pb-24  pt-12">
+        <h1 className="text-center  text-2xl  shadow-lg py-3 mb-12 w-1/2 rounded-md mx-auto font-semibold bg-teal-500 ">
           Events
         </h1>
-        <div className="rounded-md  bg-white my-10 shadow-lg p-4 w-3/4 lg:w-1/3 text-center mx-auto">
+        <div className="rounded-md  bg-teal-600 my-10 shadow-lg p-4 w-3/4 lg:w-1/3 text-center mx-auto">
           <p className="text-xl font-semibold underline">Javascript-101</p>
           <p>-by Mahesh Rajekar</p>
         </div>
-        <div className="rounded-md  bg-white my-10 shadow-lg p-4 w-3/4 lg:w-1/3 text-center mx-auto">
+        <div className="rounded-md  bg-teal-600 my-10 shadow-lg p-4 w-3/4 lg:w-1/3 text-center mx-auto">
           <p className="text-xl font-semibold underline">Python-101</p>
           <p>-by Mahesh Rajekar</p>
         </div>
-        <div className="rounded-md  bg-white mt-10 shadow-lg p-4 w-3/4 lg:w-1/3 text-center mx-auto">
+        <div className="rounded-md  bg-teal-600 mt-10 shadow-lg p-4 w-3/4 lg:w-1/3 text-center mx-auto">
           <p className="text-xl font-semibold underline">React-101</p>
           <p>-by Mahesh Rajekar</p>
         </div>

@@ -16,10 +16,10 @@ import { IoRadio } from "react-icons/io5";
 
 const IT = () => {
   return (
-    <div className="py-12 ">
+    <div className=" bg-[#001220] text-white py-12 ">
       <ScrollToTop />
       <div className="text-justify w-4/5 mx-auto">
-        <h1 className="text-center text-4xl font-semibold text-sky-600 underline py-5">
+        <h1 className="text-center text-4xl font-semibold text-teal-600 underline py-5">
           Services
         </h1>
         <p className="text-lg">
@@ -29,7 +29,7 @@ const IT = () => {
         </p>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md  text-white border border-teal-600 shadow-teal-300">
           <BsGraphUp className="w-8 h-8 mx-auto mt-4" />
           <CourseCard
             title={"Data Science"}
@@ -38,7 +38,7 @@ const IT = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md  text-white border border-teal-600 shadow-teal-300">
           <BsFillImageFill className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Matlab Image processing"}
@@ -47,7 +47,7 @@ const IT = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md  text-white border border-teal-600 shadow-teal-300">
           <BsFillCloudFill className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Cloud Computing"}
@@ -56,7 +56,7 @@ const IT = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md  text-white border border-teal-600 shadow-teal-300">
           <BiWorld className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Big Data"}
@@ -65,7 +65,7 @@ const IT = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md  text-white border border-teal-600 shadow-teal-300">
           <GiNetworkBars className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Networking"}
@@ -74,7 +74,7 @@ const IT = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md  text-white border border-teal-600 shadow-teal-300">
           <BsPersonBoundingBox className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Artificial intelligence"}
@@ -83,7 +83,7 @@ const IT = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md  text-white border border-teal-600 shadow-teal-300">
           <BsFillPersonBadgeFill className="w-8 h-8 mx-auto mt-4" />
           <CourseCard
             title={"Machine Learning"}
@@ -92,7 +92,7 @@ const IT = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md  text-white border border-teal-600 shadow-teal-300">
           <BsBoundingBox className="w-8 h-8 mx-auto mt-4" />
           <CourseCard
             title={"Blockchain Technology"}
@@ -101,7 +101,7 @@ const IT = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md  text-white border border-teal-600 shadow-teal-300">
           <BiMobileAlt className="w-8 h-8 mx-auto mt-4" />
           <CourseCard
             title={"Mobile Application Developnment"}
@@ -110,7 +110,7 @@ const IT = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md  text-white border border-teal-600 shadow-teal-300">
           <BsFillFileEarmarkCodeFill className="w-8 h-8 mx-auto mt-4" />
           <CourseCard
             title={"Full stack web Developnment"}
@@ -119,7 +119,7 @@ const IT = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md  text-white border border-teal-600 shadow-teal-300">
           <IoRadio className="w-8 h-8 mx-auto mt-4" />
           <CourseCard
             title={"Internet Of Things (IOT)"}

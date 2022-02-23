@@ -3,9 +3,9 @@ import ScrollToTop from "./ScrollToTop";
 
 const About = () => {
   return (
-    <div className="min-h-screen grid">
+    <div className="bg-[#001220] text-white min-h-screen grid">
       <ScrollToTop />
-      <h1 className="text-center text-sky-600  text-3xl my-auto  lg:text-4xl font-serif py-6 uppercase tracking-widest">
+      <h1 className="text-center text-amber-300  text-3xl my-auto  lg:text-4xl font-serif py-6 uppercase tracking-widest">
         Get to know us!
       </h1>
       <p className="text-justify px-6  pb-10  text-lg md:w-2/3 mx-auto lg:w-1/2 lg:text-xl">
@@ -19,7 +19,7 @@ const About = () => {
         their business needs in the most effective and efficient way.
       </p>
       <p className="text-justify px-6  pb-10  text-lg mx-auto">
-        <p className="text-center text-sky-600 text-3xl my-auto   lg:text-4xl font-serif py-6 uppercase tracking-widest">
+        <p className="text-center text-amber-300 text-3xl my-auto   lg:text-4xl font-serif py-6 uppercase tracking-widest">
           ADDRESS
         </p>
         Near Bombay Hotel, Kalaburgi (GULBARGA) – 585104, Karnataka .

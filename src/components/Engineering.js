@@ -4,7 +4,7 @@ import ScrollToTop from "./ScrollToTop";
 
 const Engineering = () => {
   return (
-    <div className="grid md:grid-cols-2 bg-sky-600">
+    <div className="grid md:grid-cols-2 bg-[#001220]">
       <ScrollToTop />
       <div className="w-3/4  mx-auto my-12 hover:scale-110 shadow-lg shadow-slate-400 transition ease-in-out duration-200 border-2 rounded-md">
         <Link to="/engineering/it">

@@ -3,11 +3,11 @@ import ScrollToTop from "./ScrollToTop";
 
 const CompetitveExam = () => {
   return (
-    <div className=" py-4">
+    <div className="bg-[#001220] text-white py-4">
       <ScrollToTop />
       <div>
-        <div className="my-8 text-lg border-2 rounded-md p-2 text-justify bg-sky-600 text-white  w-5/6 mx-auto">
-          <h2 className="font-medium text-2xl p-2 rounded-xl my-2 bg-white text-sky-600">
+        <div className="my-8 text-lg border-2 rounded-md p-2 text-justify  w-5/6 mx-auto">
+          <h2 className="font-medium text-2xl p-2 rounded-xl my-2 bg-gradient-to-r from-[#FA7268] to-[#C62368]">
             GATE
           </h2>
           <p className="p-2">
@@ -22,8 +22,8 @@ const CompetitveExam = () => {
             secure.
           </p>
         </div>
-        <div className="my-8 text-lg border-2 rounded-md p-2 text-justify bg-sky-600 text-white  w-5/6 mx-auto">
-          <h2 className="font-medium text-2xl p-2 rounded-xl my-2 bg-white text-sky-600">
+        <div className="my-8 text-lg border-2 rounded-md p-2 text-justify  w-5/6 mx-auto">
+          <h2 className="font-medium text-2xl p-2 rounded-xl my-2 bg-gradient-to-r from-[#FA7268] to-[#C62368]">
             JEE
           </h2>
           <p className="p-2">
@@ -50,8 +50,8 @@ const CompetitveExam = () => {
             and exclusive counselling sessions.
           </p>
         </div>
-        <div className="my-8 text-lg border-2 rounded-md p-2 text-justify bg-sky-600 text-white  w-5/6 mx-auto">
-          <h2 className="font-medium text-2xl p-2 rounded-xl my-2 bg-white text-sky-600">
+        <div className="my-8 text-lg border-2 rounded-md p-2 text-justify  w-5/6 mx-auto">
+          <h2 className="font-medium text-2xl p-2 rounded-xl my-2 bg-gradient-to-r from-[#FA7268] to-[#C62368]">
             UPSC
           </h2>
           <p className="p-2">
@@ -68,8 +68,8 @@ const CompetitveExam = () => {
             in India.
           </p>
         </div>
-        <div className="my-8 text-lg border-2 rounded-md p-2 text-justify bg-sky-600 text-white  w-5/6 mx-auto">
-          <h2 className="font-medium text-2xl p-2 rounded-xl my-2 bg-white text-sky-600">
+        <div className="my-8 text-lg border-2 rounded-md p-2 text-justify  w-5/6 mx-auto">
+          <h2 className="font-medium text-2xl p-2 rounded-xl my-2 bg-gradient-to-r from-[#FA7268] to-[#C62368]">
             NET
           </h2>
           <p className="p-2">

@@ -1,56 +1,70 @@
-import React from "react";
-import { GoLocation } from "react-icons/go";
-import { HiOutlineMail } from "react-icons/hi";
-import { AiTwotonePhone } from "react-icons/ai";
+import React, { useState } from "react";
 import ScrollToTop from "./ScrollToTop";
+import { db } from "../firebaseConfig";
+import { useNavigate } from "react-router-dom";
+import { addDoc, collection } from "firebase/firestore";
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const navigate = useNavigate();
+
+  const contactsCollectionRef = collection(db, "contacts");
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    await addDoc(contactsCollectionRef, { name, email, message });
+    alert("Form Submitted!!");
+    navigate("/");
+  };
+
   return (
-    <div className="w-3/4 lg:w-full mx-auto mt-12 lg:flex lg:justify-around">
+    <div className="bg-[#001220] text-white">
       <ScrollToTop />
-      <div className=" lg:w-1/3">
-        <div className="grid justify-items-center py-6 text-2xl">
-          <GoLocation className="mb-3" />
-          <a
-            href="https://www.google.com/maps/place/Pune,+Maharashtra/@18.6875923,73.3400789,8z/data=!4m13!1m7!3m6!1s0x3bc2bf2e67461101:0x828d43bf9d9ee343!2sPune,+Maharashtra!3b1!8m2!3d18.5204303!4d73.8567437!3m4!1s0x3bc2bf2e67461101:0x828d43bf9d9ee343!8m2!3d18.5204303!4d73.8567437"
-            target="_blank"
-            className="bg-teal-400 p-1 rounded-md hover:scale-110 transition duration-300 ease-in-out"
-          >
-            Location
-          </a>
-        </div>
-        <div className="grid justify-items-center py-6 text-2xl">
-          <HiOutlineMail className="mb-3" />
-          <a
-            href="mailto:hnresearchsolutions@gmail.com"
-            target="_blank"
-            className="bg-teal-400 p-1 rounded-md hover:scale-110 transition duration-300 ease-in-out"
-          >
-            Email
-          </a>
-        </div>
-        <div className="grid justify-items-center py-6 text-2xl">
-          <AiTwotonePhone className="mb-3" />
-          <a
-            href="tel:+919769522788"
-            target="_blank"
-            className="bg-teal-400 p-1 rounded-md hover:scale-110 transition duration-300 ease-in-out"
-          >
-            Phone
-          </a>
-        </div>
-      </div>
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLScKyiTuMp3kXMQjRaWzVZE_oJzqriXLR2ERHGMofLVmcid-1Q/viewform?embedded=true"
-        width="640"
-        height="979"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-        className=" w-[110%] h-[65rem] lg:w-[50%] mx-auto"
+      <form
+        className="p-4 grid text-center lg:w-1/2 mx-auto "
+        onSubmit={handleSubmit}
       >
-        Loading…
-      </iframe>
+        <h1 className="text-2xl font-medium text-amber-400 py-4">
+          Contact Form
+        </h1>
+        <label className="text-lg my-2">Name</label>
+        <input
+          className="text-black"
+          type="text"
+          name="name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          placeholder="Name"
+        />
+        <label className="text-lg my-2">Email</label>
+        <input
+          className="text-black"
+          type="email"
+          name="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Email"
+        />
+        <label className="text-lg my-2">Message</label>
+        <textarea
+          className="text-black"
+          type="text"
+          name="message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          placeholder="Message"
+          cols={50}
+          rows={5}
+        />
+        <button
+          type="submit"
+          className="my-6 text-xl bg-amber-400 w-1/2 mx-auto p-4 rounded-md text-black font-medium mt-12"
+        >
+          Submit
+        </button>
+      </form>
     </div>
   );
 };

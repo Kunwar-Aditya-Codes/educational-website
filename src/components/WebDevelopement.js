@@ -3,7 +3,7 @@ import ScrollToTop from "./ScrollToTop";
 
 const WebDevelopement = () => {
   return (
-    <div className="text-lg">
+    <div className="bg-[#001220] text-white text-lg">
       <ScrollToTop />
       <h1 className="text-center py-8 text-3xl font-medium tracking-wide font-serif ">
         WEB DEVELOPEMENT
@@ -17,7 +17,7 @@ const WebDevelopement = () => {
           to deliver our best services to our customers! What are you waiting
           for then?
         </p>
-        <p className="font-medium text-sky-600 mt-4">
+        <p className="font-medium text-amber-300 mt-4">
           SCALE UP YOUR ORGANISATION BY HAVING YOUR OWN WEBSITE AND LET OTHERS
           KNOW WHAT POTENTIAL LIES WITHIN YOU..
         </p>

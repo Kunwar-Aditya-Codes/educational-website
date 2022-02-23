@@ -4,10 +4,10 @@ import ScrollToTop from "./ScrollToTop";
 
 const Phd = () => {
   return (
-    <div className="py-12 ">
+    <div className="bg-[#001220] text-white py-12 ">
       <ScrollToTop />
       <div className="text-justify w-4/5 mx-auto">
-        <h1 className="text-center text-4xl font-semibold text-sky-600 underline py-5">
+        <h1 className="text-center text-4xl font-semibold text-teal-600 underline py-5">
           PhD Process
         </h1>
         <p className="text-lg">
@@ -17,7 +17,7 @@ const Phd = () => {
         </p>
       </div>
       <div className=" ">
-        <div className="rounded-lg border-2 border-sky-600 shadow-sky-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
+        <div className="rounded-lg border-2 border-teal-600 shadow-teal-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
           <CourseCard
             title={"Deciding the right University"}
             description={
@@ -25,7 +25,7 @@ const Phd = () => {
             }
           />
         </div>
-        <div className="rounded-lg border-2 border-sky-600 shadow-sky-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
+        <div className="rounded-lg border-2 border-teal-600 shadow-teal-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
           <CourseCard
             title={"Identify the right guide"}
             description={
@@ -33,7 +33,7 @@ const Phd = () => {
             }
           />
         </div>
-        <div className="rounded-lg border-2 border-sky-600 shadow-sky-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
+        <div className="rounded-lg border-2 border-teal-600 shadow-teal-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
           <CourseCard
             title={"PHD- Registration"}
             description={
@@ -41,7 +41,7 @@ const Phd = () => {
             }
           />
         </div>
-        <div className="rounded-lg border-2 border-sky-600 shadow-sky-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
+        <div className="rounded-lg border-2 border-teal-600 shadow-teal-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
           <CourseCard
             title={"Technical Domain Selection"}
             description={
@@ -49,7 +49,7 @@ const Phd = () => {
             }
           />
         </div>
-        <div className="rounded-lg border-2 border-sky-600 shadow-sky-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
+        <div className="rounded-lg border-2 border-teal-600 shadow-teal-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
           <CourseCard
             title={"Identifying the research problem"}
             description={
@@ -57,7 +57,7 @@ const Phd = () => {
             }
           />
         </div>
-        <div className="rounded-lg border-2 border-sky-600 shadow-sky-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
+        <div className="rounded-lg border-2 border-teal-600 shadow-teal-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
           <CourseCard
             title={"Write a research Proposal"}
             description={
@@ -65,7 +65,7 @@ const Phd = () => {
             }
           />
         </div>
-        <div className="rounded-lg border-2 border-sky-600 shadow-sky-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
+        <div className="rounded-lg border-2 border-teal-600 shadow-teal-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
           <CourseCard
             title={"Literature Survey"}
             description={
@@ -73,7 +73,7 @@ const Phd = () => {
             }
           />
         </div>
-        <div className="rounded-lg border-2 border-sky-600 shadow-sky-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
+        <div className="rounded-lg border-2 border-teal-600 shadow-teal-200 w-4/5 mt-8 mx-auto text-justify p-6 shadow-md">
           <CourseCard
             title={"Thesis Writing "}
             description={
@@ -83,7 +83,7 @@ const Phd = () => {
         </div>
       </div>
       <div className="text-justify w-4/5 mx-auto mt-10">
-        <h1 className="text-center text-4xl font-semibold text-sky-600 underline py-5">
+        <h1 className="text-center text-4xl font-semibold text-teal-600 underline py-5">
           PhD Guidance
         </h1>
         <p className="">
@@ -119,7 +119,7 @@ const Phd = () => {
         </p>
       </div>
       <div className="text-justify w-4/5 mx-auto mt-10">
-        <h1 className="text-center text-4xl font-semibold text-sky-600 underline py-5">
+        <h1 className="text-center text-4xl font-semibold text-teal-600 underline py-5">
           PhD Consulting
         </h1>
         <p>
@@ -130,49 +130,49 @@ const Phd = () => {
           pro-active counseling and direction shall comfortably guide you
           through to complete the research project successfully.
         </p>
-        <p className="mt-5 text-lg font-medium text-sky-600">
+        <p className="mt-5 text-lg font-medium text-teal-600">
           We are specialized in the following areas:
         </p>
-        <p className="mt-2 font-medium text-sky-600">
+        <p className="mt-2 font-medium text-teal-600">
           # Research Consulting Areas
         </p>
-        <p className="mt-2 font-medium text-sky-600">
+        <p className="mt-2 font-medium text-teal-600">
           # What is the insight you get?
         </p>
-        <p className="mt-2 font-medium text-sky-600">
+        <p className="mt-2 font-medium text-teal-600">
           # Learning through Ignian Software Solutions
         </p>
-        <p className="mt-2 font-medium text-sky-600">
+        <p className="mt-2 font-medium text-teal-600">
           # Our support facilitates
         </p>
       </div>
       <div className="text-justify w-4/5 mx-auto mt-10">
-        <h1 className="text-center text-4xl font-semibold text-sky-600 underline py-5">
+        <h1 className="text-center text-4xl font-semibold text-teal-600 underline py-5">
           PhD Resources
         </h1>
         <div className="text-lg">
-          <p className="mt-2 font-medium bg-sky-600 rounded-md p-2 text-center text-white">
+          <p className="mt-2 font-medium bg-teal-600 rounded-md p-2 text-center text-white">
             How to write a PhD research proposal.
           </p>
-          <p className="mt-2 font-medium bg-sky-600 rounded-md p-2 text-center text-white">
+          <p className="mt-2 font-medium bg-teal-600 rounded-md p-2 text-center text-white">
             How to write a research paper.
           </p>
-          <p className="mt-2 font-medium bg-sky-600 rounded-md p-2 text-center text-white">
+          <p className="mt-2 font-medium bg-teal-600 rounded-md p-2 text-center text-white">
             How to write a thesis for a PhD.
           </p>
-          <p className="mt-2 font-medium bg-sky-600 rounded-md p-2 text-center text-white">
+          <p className="mt-2 font-medium bg-teal-600 rounded-md p-2 text-center text-white">
             How to write an abstract.
           </p>
-          <p className="mt-2 font-medium bg-sky-600 rounded-md p-2 text-center text-white">
+          <p className="mt-2 font-medium bg-teal-600 rounded-md p-2 text-center text-white">
             How to connect digital data and use the intranet for research work.
           </p>
-          <p className="mt-2 font-medium bg-sky-600 rounded-md p-2 text-center text-white">
+          <p className="mt-2 font-medium bg-teal-600 rounded-md p-2 text-center text-white">
             How to get yourself acclimated to academic writing.
           </p>
-          <p className="mt-2 font-medium bg-sky-600 rounded-md p-2 text-center text-white">
+          <p className="mt-2 font-medium bg-teal-600 rounded-md p-2 text-center text-white">
             How to prepare for your oral defense and publishing your results.
           </p>
-          <p className="mt-2 font-medium bg-sky-600 rounded-md p-2 text-center text-white">
+          <p className="mt-2 font-medium bg-teal-600 rounded-md p-2 text-center text-white">
             PhD regulations in All universities.
           </p>
         </div>
