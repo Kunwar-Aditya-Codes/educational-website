@@ -19,10 +19,10 @@ import { ImEmbed2 } from "react-icons/im";
 
 const Electronics = () => {
   return (
-    <div className="py-12 bg-[#001220] text-white">
+    <div className="py-12 ">
       <ScrollToTop />
       <div className="text-justify w-4/5 mx-auto">
-        <h1 className="text-center text-4xl font-semibold text-teal-600 underline py-5">
+        <h1 className="text-center text-4xl font-semibold text-sky-600 underline py-5">
           Services
         </h1>
         <p className="text-lg">
@@ -32,7 +32,7 @@ const Electronics = () => {
         </p>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
           <BiChip className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Analog Electronic Circuit"}
@@ -41,7 +41,7 @@ const Electronics = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
           <BsUiRadios className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Control Systems"}
@@ -50,7 +50,7 @@ const Electronics = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
           <ImEmbed2 className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Embeded System"}
@@ -59,7 +59,7 @@ const Electronics = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
           <GiAerialSignal className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Digital Signal Processing"}
@@ -68,7 +68,7 @@ const Electronics = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
           <GiElectric className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Electric Power"}
@@ -77,7 +77,7 @@ const Electronics = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
           <VscRadioTower className="w-8 h-8 mx-auto mt-4" />
           <CourseCard
             title={"Networking"}
@@ -86,7 +86,7 @@ const Electronics = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
           <GiCircularSawblade className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Ac/Dc Motors"}
@@ -95,7 +95,7 @@ const Electronics = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
           <BsBezier2 className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"VLSI"}
@@ -104,7 +104,7 @@ const Electronics = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
           <BsFillLightningChargeFill className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"High Voltage Transmission"}
@@ -113,7 +113,7 @@ const Electronics = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
           <RiLayoutFill className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"PLC SCADA"}
@@ -122,7 +122,7 @@ const Electronics = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
           <GiUnplugged className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Power Electronics"}

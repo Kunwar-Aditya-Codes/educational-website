@@ -17,12 +17,12 @@ const Events = () => {
   });
 
   return (
-    <div className="bg-[#001220] text-white min-h-screen">
+    <div className="text-white min-h-screen">
       <ScrollToTop />
       {events.map((event) => {
         return (
           <div className=" p-4">
-            <div className="grid justify-items-center py-2 border-2 rounded-md  lg:flex lg:justify-evenly lg:items-center lg:p-6 ">
+            <div className="grid justify-items-center py-2 bg-sky-600 rounded-md  lg:flex lg:justify-evenly lg:items-center lg:p-6 ">
               <img
                 src={event.image}
                 alt=""

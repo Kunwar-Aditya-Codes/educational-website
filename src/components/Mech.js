@@ -8,10 +8,10 @@ import { BiError } from "react-icons/bi";
 
 const Mech = () => {
   return (
-    <div className="py-12 text-white bg-[#001220]">
+    <div className="py-12 ">
       <ScrollToTop />
       <div className="text-justify w-4/5 mx-auto">
-        <h1 className="text-center text-4xl font-semibold text-teal-600 underline py-5">
+        <h1 className="text-center text-4xl font-semibold text-sky-600 underline py-5">
           Services
         </h1>
         <p className="text-lg">
@@ -21,7 +21,7 @@ const Mech = () => {
         </p>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
           <FaTemperatureHigh className="w-8 h-8 mx-auto mt-4" />
           <CourseCard
             title={"Thermodynamics"}
@@ -30,7 +30,7 @@ const Mech = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
           <BsDropletHalf className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Fluid Mechanics"}
@@ -39,7 +39,7 @@ const Mech = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
           <AiFillSetting className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Manufacturing Technology"}
@@ -48,7 +48,7 @@ const Mech = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
           <BiError className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Dynamics of Machinery"}
@@ -57,7 +57,7 @@ const Mech = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
           <BsUiRadios className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Control Systems"}
@@ -66,7 +66,7 @@ const Mech = () => {
             }
           />
         </div>
-        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md border-teal-600 border shadow-teal-300">
+        <div className="rounded-lg w-4/5 mt-8 mx-auto text-justify p-6 shadow-md bg-sky-600 text-white border shadow-sky-300">
           <AiOutlineHeatMap className="w-8 h-8 mx-auto mt-4 " />
           <CourseCard
             title={"Heat & Mass Transfer"}

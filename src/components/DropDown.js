@@ -13,7 +13,7 @@ const DropDown = () => {
     <>
       {!show ? (
         <button className="lg:hidden" onClick={() => setShow(!show)}>
-          <FiMenu className="w-6 h-6 text-white" />
+          <FiMenu className="w-6 h-6 text-sky-600" />
         </button>
       ) : (
         <button onClick={() => setShow(!show)} className="">
@@ -21,7 +21,7 @@ const DropDown = () => {
         </button>
       )}
       <div
-        className={`top-0 right-0 lg:hidden fixed bg-gradient-to-b from-[#FA7268] to-[#C62368] w-[40vw] h-full z-40 p-4 ${
+        className={`top-0 right-0 lg:hidden fixed bg-sky-600 w-[40vw] h-full z-40 p-4 ${
           show ? "translate-x-0" : "translate-x-full"
         } transition ease-in-out duration-300`}
       >
@@ -29,35 +29,35 @@ const DropDown = () => {
           <Link
             to="/about"
             onClick={() => setShow(!show)}
-            className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+            className="hover:bg-white hover:text-black transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
           >
             About Us
           </Link>
           <Link
             to="/training"
             onClick={() => setShow(!show)}
-            className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+            className="hover:bg-white hover:text-black transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
           >
             Training & Certification
           </Link>
           <Link
             to="/internship"
             onClick={() => setShow(!show)}
-            className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+            className="hover:bg-white hover:text-black transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
           >
             Internship
           </Link>
           <Link
             to="/competitive-exam"
             onClick={() => setShow(!show)}
-            className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+            className="hover:bg-white hover:text-black transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
           >
             Competitve Exam
           </Link>
           <Link
             to="/events"
             onClick={() => setShow(!show)}
-            className="hover:bg-[#001220] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+            className="hover:bg-white hover:text-black transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
           >
             Events
           </Link>
@@ -80,21 +80,21 @@ const DropDown = () => {
               </li>
             )}
             <ul
-              className={`grid absolute top-[28rem] w-full right-0.5 bg-[#001220]   rounded-md p-4 transition-all duration-300 origin-top ${
+              className={`grid absolute top-[28rem] w-full right-0.5 bg-white text-sky-600   rounded-md p-4 transition-all duration-300 origin-top ${
                 options3 ? "scale-100" : "scale-0"
               } transition ease-in-out duration-300`}
             >
               <Link
                 to="/app-dev"
                 onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+                className="hover:bg-sky-600 hover:text-white transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >
                 App Developement
               </Link>
               <Link
                 to="/web-dev"
                 onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+                className="hover:bg-sky-600 hover:text-white transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >
                 Web Developement
               </Link>
@@ -119,28 +119,28 @@ const DropDown = () => {
               </li>
             )}
             <ul
-              className={`grid absolute top-[33rem] w-full right-0.5 bg-[#001220]   rounded-md p-4 transition-all duration-300 origin-top ${
+              className={`grid absolute top-[33rem] w-full right-0.5 bg-white text-sky-600   rounded-md p-4 transition-all duration-300 origin-top ${
                 options ? "scale-100" : "scale-0"
               } transition ease-in-out duration-300`}
             >
               <Link
                 to="/phd"
                 onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+                className="hover:bg-sky-600 hover:text-white transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >
                 Phd
               </Link>
               <Link
                 to="/engineering"
                 onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+                className="hover:bg-sky-600 hover:text-white transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >
                 M.Tech
               </Link>
               <Link
                 to="/engineering"
                 onClick={() => setShow(!show)}
-                className="hover:bg-gradient-to-r from-[#FA7268] to-[#C62368] transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+                className="hover:bg-sky-600 hover:text-white transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
               >
                 B.Tech
               </Link>
