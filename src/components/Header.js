@@ -3,7 +3,7 @@ import DropDown from "./DropDown";
 
 const Header = () => {
   return (
-    <div className="p-4 sticky top-0 z-50 ">
+    <div className="p-4  bg-[#7EC8E3]  sticky top-0 z-50 ">
       <div className="flex items-center justify-between lg:grid grid-cols-1 px-6">
         <div className="flex items-center justify-center ">
           <img src="images/Logo.png" alt="" className="w-24 h-24 p-2" />

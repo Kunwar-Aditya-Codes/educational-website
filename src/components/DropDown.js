@@ -27,13 +27,6 @@ const DropDown = () => {
       >
         <ul className="text-white font-semibold text-lg mt-12 text-center grid  ">
           <Link
-            to="/contact"
-            onClick={() => setShow(!show)}
-            className="hover:bg-white hover:text-black transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
-          >
-            Contact Us
-          </Link>
-          <Link
             to="/about"
             onClick={() => setShow(!show)}
             className="hover:bg-white hover:text-black transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
@@ -153,6 +146,13 @@ const DropDown = () => {
                 B.Tech
               </Link>
             </ul>
+            <Link
+              to="/contact"
+              onClick={() => setShow(!show)}
+              className="hover:bg-white hover:text-black transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
+            >
+              Contact Us
+            </Link>
           </>
         </ul>
       </div>
