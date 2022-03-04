@@ -3,20 +3,20 @@ import DropDown from "./DropDown";
 
 const Header = () => {
   return (
-    <div className="p-4  bg-[#7EC8E3]  sticky top-0 z-50 ">
-      <div className="flex items-center justify-between lg:grid grid-cols-1 px-6">
-        <div className="flex items-center justify-center ">
+    <div className="bg-[#4FBDBA] sticky top-0 z-50 ">
+      <div className="flex items-center justify-evenly ">
+        <div className="flex items-center justify-center  ">
           <img src="images/Logo.png" alt="" className="w-24 h-24 p-2" />
           <Link
             to="/"
-            className=" lg:text-center font-semibold tracking-wide italic text-xl xl:text-3xl"
+            className=" lg:text-center font-semibold tracking-wide italic text-xl "
           >
             Ignian Software Solutions LLP
           </Link>
         </div>
 
         {/* Nav items */}
-        <div className="font-semibold flex justify-between lg:pt-3  items-center ">
+        <div className="font-semibold flex justify-between pb-1 items-center lg:w-full px-3 ">
           <Link
             className="list-none xl:text-lg cursor-pointer hidden lg:inline-block group  p-2 rounded-md lg:text-base focus:shadow-md focus:bg-[#001220] focus:text-white  text-lg hover:scale-110 transition ease-in-out duration-200"
             to="/about"
@@ -87,6 +87,12 @@ const Header = () => {
             to="/events"
           >
             Events
+          </Link>
+          <Link
+            className="list-none xl:text-lg cursor-pointer hidden lg:inline-block group  p-2 rounded-md lg:text-base focus:shadow-md focus:bg-[#001220] focus:text-white  text-lg hover:scale-110 transition ease-in-out duration-200"
+            to="/contact"
+          >
+            Contact Us
           </Link>
         </div>
         {/* sidebar */}

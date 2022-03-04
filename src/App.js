@@ -17,6 +17,7 @@ import WebDevelopement from "./components/WebDevelopement";
 import About from "./components/About";
 import Events from "./components/Events";
 import Contact from "./components/Contact";
+import Payments from "./components/Payments";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/events" element={<Events />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/payments" element={<Payments/>} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
