@@ -1,16 +1,59 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import TopSlider from "./TopSlider";
 import Card from "./Card";
 import Vision from "./Vision";
 import Testimonials from "./Testimonials";
 import ScrollToTop from "./ScrollToTop";
+import { db } from "../firebaseConfig";
+import { collection, getDocs } from "firebase/firestore";
 
 const Home = () => {
+  const [events, setEvents] = useState([]);
+  const eventCollection = collection(db, "events");
+
+  useEffect(() => {
+    const getEvents = async () => {
+      const data = await getDocs(eventCollection);
+      setEvents(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+    };
+
+    getEvents();
+  });
+
   return (
     <div className="bg-[#001220] text-white">
       <ScrollToTop />
-      <div className="">
+      <div>
         <TopSlider />
+      </div>
+
+      <div>
+        <h1 className="text-center my-12 text-4xl border-2 mx-4 p-2 rounded-md uppercase tracking-wider">
+          Events
+        </h1>
+        {events.length === 0 ? (
+          <h1 className="text-center text-xl">No Events!</h1>
+        ) : (
+          events.map((event) => {
+            return (
+              <div className=" p-4">
+                <div className="grid justify-items-center py-2 border-2 rounded-md  lg:flex lg:justify-evenly lg:items-center lg:p-6 ">
+                  <img
+                    src={event.image}
+                    alt=""
+                    className="w-1/2 lg:w-1/3 rounded-lg"
+                  />
+                  <div className="text-center">
+                    <h1 className="my-3 text-2xl lg:text-4xl font-medium">
+                      {event.title}
+                    </h1>
+                    <p className="text-lg lg:text-3xl my-2">{event.date}</p>
+                  </div>
+                </div>
+              </div>
+            );
+          })
+        )}
       </div>
       <div className="mt-20 text-center">
         <p className="w-5/6 text-3xl  underline underline-offset-2 mx-auto font-bold tracking-wide">
@@ -79,28 +122,11 @@ const Home = () => {
         <Vision />
       </div>
 
-      <div className="mt-16">
+      <div className="mt-16 pb-16">
         <h1 className="text-center text-white text-2xl shadow-lg py-3 mb-12 w-1/2 rounded-md mx-auto font-semibold bg-teal-500 ">
           Testimonials
         </h1>
         <Testimonials />
-      </div>
-      <div className="mt-16 pb-24  pt-12">
-        <h1 className="text-center  text-2xl  shadow-lg py-3 mb-12 w-1/2 rounded-md mx-auto font-semibold bg-teal-500 ">
-          Events
-        </h1>
-        <div className="rounded-md  bg-teal-600 my-10 shadow-lg p-4 w-3/4 lg:w-1/3 text-center mx-auto">
-          <p className="text-xl font-semibold underline">Javascript-101</p>
-          <p>-by Mahesh Rajekar</p>
-        </div>
-        <div className="rounded-md  bg-teal-600 my-10 shadow-lg p-4 w-3/4 lg:w-1/3 text-center mx-auto">
-          <p className="text-xl font-semibold underline">Python-101</p>
-          <p>-by Mahesh Rajekar</p>
-        </div>
-        <div className="rounded-md  bg-teal-600 mt-10 shadow-lg p-4 w-3/4 lg:w-1/3 text-center mx-auto">
-          <p className="text-xl font-semibold underline">React-101</p>
-          <p>-by Mahesh Rajekar</p>
-        </div>
       </div>
     </div>
   );

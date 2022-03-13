@@ -19,7 +19,7 @@ const Events = () => {
   return (
     <div className="bg-[#001220] text-white min-h-screen">
       <ScrollToTop />
-      {!events ? (
+      {events.length === 0 ? (
         <h1 className="text-center text-xl">No Events!</h1>
       ) : (
         events.map((event) => {
