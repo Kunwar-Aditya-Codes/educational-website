@@ -55,13 +55,7 @@ const DropDown = () => {
           >
             Competitve Exam
           </Link>
-          <Link
-            to="/events"
-            onClick={() => setShow(!show)}
-            className="hover:bg-white hover:text-black transition-all ease-in-out duration-200 p-2 my-1 rounded-md"
-          >
-            Events
-          </Link>
+
           <>
             {!options3 ? (
               <li

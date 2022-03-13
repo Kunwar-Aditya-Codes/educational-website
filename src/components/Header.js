@@ -85,12 +85,6 @@ const Header = () => {
 
           <Link
             className="list-none xl:text-lg cursor-pointer hidden lg:inline-block group  p-2 rounded-md lg:text-base focus:shadow-md focus:bg-[#001220] focus:text-white  text-lg hover:scale-110 transition ease-in-out duration-200"
-            to="/events"
-          >
-            Events
-          </Link>
-          <Link
-            className="list-none xl:text-lg cursor-pointer hidden lg:inline-block group  p-2 rounded-md lg:text-base focus:shadow-md focus:bg-[#001220] focus:text-white  text-lg hover:scale-110 transition ease-in-out duration-200"
             to="/contact"
           >
             Contact Us

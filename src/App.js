@@ -15,7 +15,6 @@ import CompetitveExam from "./components/CompetitveExam";
 import AppDevelopement from "./components/AppDevelopement";
 import WebDevelopement from "./components/WebDevelopement";
 import About from "./components/About";
-import Events from "./components/Events";
 import Contact from "./components/Contact";
 
 function App() {
@@ -36,7 +35,6 @@ function App() {
         <Route path="app-dev" element={<AppDevelopement />} />
         <Route path="web-dev" element={<WebDevelopement />} />
         <Route path="/about" element={<About />} />
-        <Route path="/events" element={<Events />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
       </Routes>
